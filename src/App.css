@@ -1,0 +1,162 @@
+/*************************Universal**************************/
+:root {
+  --primary-white: #fff;
+  --secondary-green: #00abae;
+}
+
+* {
+  font-family: "Poppins";
+  scroll-behavior: smooth;
+}
+
+/*************************Navbar******************************/
+.navbar {
+  z-index: 100;
+}
+
+.navbar-light .navbar-brand {
+  color: var(--secondary-green) !important;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+.navbar-brand img {
+  width: 4rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+a.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+  color: var(--secondary-green) !important;
+}
+
+.navbar-light .navbar-toggler {
+  background-color: var(--secondary-green) !important;
+}
+
+.container {
+  padding: 1rem 0rem;
+}
+/**************************About*****************/
+.about {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.about-card {
+  width: 30rem !important;
+}
+
+.card {
+  z-index: 1000;
+  margin-bottom: 1rem;
+}
+
+.card-body {
+  color: var(--primary-white);
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btns img {
+  width: 3rem;
+}
+
+.btn-primary {
+  border-radius: 1rem !important;
+  -webkit-border-radius: 1rem !important;
+  -moz-border-radius: 1rem !important;
+  -ms-border-radius: 1rem !important;
+  -o-border-radius: 1rem !important;
+  background-color: #000 !important;
+  border: 0 !important;
+}
+
+/************************Media Screen************************/
+@media only screen and (max-width:600px) {
+  .about-card {
+    width: 20rem !important;
+  }
+}
+
+/****************************Project**********************/
+.project {
+  width: 80%;
+  margin: 4rem auto;
+}
+
+.project .project-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.project .project-card video {
+  height:21.5rem;
+  width: 50rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.project-links a {
+  text-decoration: none;
+  color: var(--primary-white) !important;
+}
+
+/************************Media Screen**************************/
+@media only screen and (max-width:600px) {
+  .project .project-card {
+    flex-direction: column;
+  }
+  .project .project-card video {
+    width: 20rem;
+  }
+}
+
+/*****************************Skills***********************/
+.skills {
+  display: flex;
+  width: 80%;
+  margin: 2rem auto;
+  flex-direction: column;
+}
+
+.skills .skills-card {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem 2rem;
+}
+
+.skills img {
+  width: 15rem;
+}
+
+.skills .skills-card .logos {
+  text-align: center;
+}
+
+.skills .skills-card .logos .card-title {
+  margin: 1rem 0rem;
+  color: var(--secondary-green) !important;
+}
+
+/************************Media Screen******************************/
+@media only screen and (max-width:600px) {
+  .skills .skills-card {
+    flex-direction: column;
+  }
+}
