@@ -1,5 +1,6 @@
 # Getting Started with Create React App
-[click here](https://zubi-dubi-portfolio.netlify.app/) to visit
+[Click here](https://zubi-dubi-portfolio.netlify.app/) to visit the site.
+<br>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
